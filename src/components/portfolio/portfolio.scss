@@ -8,25 +8,22 @@
 
     h1{
         font-size: 50px;
+
+        @include mobile{
+            font-size: 20px;
+        }
     }
 
     ul{
-        margin: 0;
+        margin: 10px;
         padding: 0;
         list-style: none;
         display: flex;
 
-        li{
-            font-size: 12px;
-            margin-right: 50px;
-            padding: 7px;
-            border-radius: 10px;
-            cursor: pointer;
-
-            &.active{
-                background-color: $mainColor;
-                color: white;
-            }
+        @include mobile{
+            margin: 10px 0;
+            flex-wrap: wrap;
+            justify-content: center;
         }
     }
     .container{
@@ -36,6 +33,10 @@
         justify-content: center;
         flex-wrap: wrap;
         overflow: hidden;
+
+        @include mobile{
+            width: 100%;
+        }
 
         .item{
             width: 220px;
@@ -50,6 +51,11 @@
             position: relative;
             transition: all 0.5s ease;
             cursor: pointer;
+
+            @include mobile{
+                width: 130px;
+                height: 100px;
+            }
 
             h3{
                 position: absolute;
