@@ -65,6 +65,8 @@
             @include mobile{
                 padding: 0%;
                 align-items: center;
+                justify-content: flex-start;
+                padding-top: 60px;
             }
 
             h1{
@@ -108,11 +110,12 @@
         }
         a{
             position: absolute;
-            bottom: 30px;
+            bottom: 100px;
             left: 30%;
 
             @include mobile{
                 left: 80%;
+                bottom: 60px;
             }
 
             img{
