@@ -8,14 +8,14 @@ export const featuredPortfolio = [
   {
     id: 2,
     title: "Amazon",
-    img: "https://cdn.dribbble.com/users/702789/screenshots/15054318/media/4ea5d492b7b07eebc9528ff960794879.png?compress=1&resize=1200x900",
-    imgUrl: "",
+    img: "/assets/amazon.png",
+    imgUrl: "https://amazon-wine.vercel.app",
   },
   {
     id: 3,
     title: "E-commerce Web Design",
-    img: "https://amazon-wine.vercel.app/",
-    imgUrl: "/assets/amazon.png",
+    img: "/https://cdn.dribbble.com/users/702789/screenshots/15054318/media/4ea5d492b7b07eebc9528ff960794879.png?compress=1&resize=1200x900",
+    imgUrl: "",
   },
   {
     id: 4,
@@ -40,9 +40,9 @@ export const featuredPortfolio = [
 export const webPortfolio = [
   {
     id: 2,
-    title: "Web Rampa UI Design",
-    img: "https://cdn.dribbble.com/users/3967258/screenshots/15463803/media/4fddb9a2caf3b3bd634060f706a91e73.png?compress=1&resize=1200x900",
-    imgUrl: "",
+    title: "Amazon",
+    img: "/assets/amazon.png",
+    imgUrl: "https://amazon-wine.vercel.app",
   },
   {
     id: 1,
